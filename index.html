@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#080b1a">
+  <title>NAVO 3.1 — Ask the universe</title><meta name="description" content="NAVO 3.1 gives direct AI answers and searches the web when current information is needed.">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css"><script src="/app.js" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div><div class="ambient ambient-three"></div><div class="starfield"></div><div class="grid-floor"></div>
+  <main class="page"><nav class="topbar"><a class="brand" href="/" aria-label="NAVO AI home"><span class="brand-mark">✳</span><span>NAVO<span class="brand-light"> AI</span></span></a><div class="status-pill"><span class="status-dot"></span> NAVO 3.1</div></nav>
+    <section class="center"><div class="orbit-wrap" aria-hidden="true"><div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="hero-mark"><span>✳</span></div><i class="orbit-point point-a"></i><i class="orbit-point point-b"></i><i class="orbit-point point-c"></i></div>
+      <div class="eyebrow"><span></span> YOUR CURIOSITY, UNLIMITED <span></span></div><h1>Big questions.<br><span>Brighter answers.</span></h1>
+      <p class="hero-copy">One little chat. A whole world of information.<br class="desktop-break"> Quick answers for everyday questions, with deeper web research when it helps.</p>
+      <button class="open-inline" id="open-inline" type="button"><span>Start a conversation</span><span class="button-arrow">↗</span></button>
+      <div class="feature-row"><div class="feature"><span class="feature-icon">⌁</span><span>Web source links</span></div><span class="feature-divider"></span><div class="feature"><span class="feature-icon">✧</span><span>Instant answers</span></div><span class="feature-divider"></span><div class="feature"><span class="feature-icon">◌</span><span>One clear reply</span></div></div>
+    </section><footer class="footer-note"><span class="footer-star">✳</span> Stay curious. Keep exploring.</footer>
+  </main>
+  <button class="chat-launcher" id="chat-launcher" aria-label="Open NAVO AI chat" aria-expanded="false" type="button"><span class="launcher-halo"></span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11.5a7.5 7.5 0 0 1-7.5 7.5H5l1.8-3.1A7.4 7.4 0 1 1 20 11.5Z"/><path d="M8 11h8M8 14h5"/></svg><span class="launcher-label">Ask NAVO</span></button>
+  <section class="chat-panel" id="chat-panel" aria-label="NAVO AI chat window" aria-hidden="true"><header class="chat-header"><div class="avatar">✳</div><div class="header-copy"><strong>NAVO <span>3.1</span></strong><span><i></i> Ready to explore</span></div><button id="close-chat" class="icon-button" aria-label="Close chat" type="button">×</button></header>
+    <div class="chat-welcome"><span class="welcome-spark">✦</span><div><strong>Hey there!</strong><p>What are you curious about today?</p></div></div>
+    <div class="messages" id="messages" aria-live="polite"><div class="message assistant"><div class="bubble">Hi! 👋 I’m NAVO 3.1. Ask me anything. I’ll give one clear answer and search the web when current information matters.</div></div></div>
+    <div class="suggestions" id="suggestions"><button type="button">Explain photosynthesis</button><button type="button">Help me write</button></div>
+    <form class="composer" id="chat-form"><textarea id="chat-input" rows="1" maxlength="4000" placeholder="Ask anything..." aria-label="Your message" required></textarea><button id="send-button" type="submit" aria-label="Send message"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m4 4 16 8-16 8 3-8-3-8Z"/><path d="M7 12h13"/></svg></button></form><div class="chat-foot"><span>✳</span> Search snippets are starting points. Verify important details.</div>
+  </section>
+</body></html>
